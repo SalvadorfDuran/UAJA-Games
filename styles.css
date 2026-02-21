@@ -650,6 +650,11 @@ tbody tr:hover {
     gap: 8px;
   }
 
+  #summaryTable .player-image {
+    width: 150px;
+    height: 150px;
+  }
+
   #matchTable,
   #matchTable thead,
   #matchTable tbody,
