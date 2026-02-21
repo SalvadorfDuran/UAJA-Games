@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Noticias</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Novedades</p>
+          <h1>Noticias</h1>
+          <p class="lead">Feed de imágenes y publicaciones.</p>
+        </div>
+        <a class="primary" href="tabla.html">Volver</a>
+      </header>
+
+      <nav class="tabs" aria-label="Secciones">
+        <a class="tab-link" href="tabla.html">Tabla</a>
+        <a class="tab-link" href="tabla.html#partidos">Partidos</a>
+        <a class="tab-link active" href="noticias.html">Noticias</a>
+      </nav>
+
+      <div class="filter-bar">
+        <div class="controls">
+          <label for="torneoSelect" class="muted">Torneo</label>
+          <select id="torneoSelect"></select>
+        </div>
+      </div>
+
+      <section class="card">
+        <div class="row">
+          <div>
+            <h2>Feed</h2>
+            <p class="muted">¿Qué estuvo pasando en UAJA GAMES?</p>
+          </div>
+        </div>
+        <div id="newsFeed" class="news-feed"></div>
+      </section>
+    </main>
+
+    <script src="noticias.js"></script>
+  </body>
+</html>

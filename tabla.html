@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tabla General de Puntos</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Resumen</p>
+          <h1>Tabla general</h1>
+          <p class="lead">
+            Suma los puntos por jugador desde la hoja seleccionada.
+          </p>
+        </div>
+        <a class="primary" href="index.html">Volver</a>
+      </header>
+
+      <nav class="tabs" aria-label="Secciones">
+        <button class="tab-button active" data-tab="tabla">Tabla</button>
+        <button class="tab-button" data-tab="partidos">Partidos</button>
+        <a class="tab-link" href="noticias.html">Noticias</a>
+      </nav>
+
+      <div class="filter-bar">
+        <div class="controls">
+          <label for="torneoSelect" class="muted">Torneo</label>
+          <select id="torneoSelect"></select>
+        </div>
+      </div>
+
+      <section class="tab-panel active" id="tab-tabla">
+        <div class="card">
+          <div class="row">
+            <h2>Tabla de puntos</h2>
+            <span class="muted" id="rowCount"></span>
+          </div>
+          <div class="table-wrap">
+            <table id="summaryTable"></table>
+          </div>
+          <p class="muted" id="tableHint"></p>
+        </div>
+      </section>
+
+      <section class="tab-panel" id="tab-partidos">
+        <div class="card">
+          <h2>Partidos</h2>
+          <p class="muted">Selecciona un partido para ver el resumen.</p>
+          <div class="row" style="margin-top: 16px;">
+            <div class="controls">
+              <label for="matchSelect" class="muted">Fecha/Partido</label>
+              <select id="matchSelect"></select>
+            </div>
+            <span class="muted" id="matchMeta"></span>
+          </div>
+          <div class="table-wrap" style="margin-top: 16px;">
+            <table id="matchTable"></table>
+          </div>
+          <p class="muted" id="matchHint"></p>
+        </div>
+      </section>
+
+    </main>
+
+    <script src="tabla.js"></script>
+  </body>
+</html>
