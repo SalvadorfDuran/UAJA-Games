@@ -134,32 +134,32 @@ const NEWS_POSTS = [
     media: [
       {
         type: "image",
-        src: `${NEWS_ASSETS_BASE}/2026-01-14(4).jpeg`,
+        src: `${NEWS_ASSETS_BASE}/2026-02-25(4).jpeg`,
         caption: ".",
       },
       {
         type: "image",
-        src: `${NEWS_ASSETS_BASE}/2026-01-14(5).jpeg`,
+        src: `${NEWS_ASSETS_BASE}/2026-02-25(5).jpeg`,
         caption: ".",
       },
       {
         type: "image",
-        src: `${NEWS_ASSETS_BASE}/2026-01-14(6).jpeg`,
+        src: `${NEWS_ASSETS_BASE}/2026-02-25(6).jpeg`,
         caption: ".",
       },
       {
         type: "image",
-        src: `${NEWS_ASSETS_BASE}/2026-01-14(7).jpeg`,
+        src: `${NEWS_ASSETS_BASE}/2026-02-25(7).jpeg`,
         caption: ".",
       },
       {
         type: "image",
-        src: `${NEWS_ASSETS_BASE}/2026-01-14(8).jpeg`,
+        src: `${NEWS_ASSETS_BASE}/2026-02-25(8).jpeg`,
         caption: ".",
       },
       {
         type: "image",
-        src: `${NEWS_ASSETS_BASE}/2026-01-14(9).jpeg`,
+        src: `${NEWS_ASSETS_BASE}/2026-02-25(9).jpeg`,
         caption: ".",
       },
     ],
