@@ -107,6 +107,80 @@ const NEWS_POSTS = [
     date: "14/01/2026",
     torneo: "1era Edición",
   },
+  {
+    media: [
+      {
+        type: "image",
+        src: `${NEWS_ASSETS_BASE}/2026-02-25(1).png`,
+        caption: ".",
+      },
+      {
+        type: "image",
+        src: `${NEWS_ASSETS_BASE}/2026-02-25(2).jpeg`,
+        caption: ".",
+      },
+      {
+        type: "image",
+        src: `${NEWS_ASSETS_BASE}/2026-02-25(3).jpeg`,
+        caption: "Un 25",
+      },
+    ],
+    title: "¿Para que te traje, matador?",
+    text: "Ibo y El Matador canjearon las millas, por puntos en la tabla. Primer y segundo puesto para los rescatistas de la comida.",
+    date: "25/02/2026",
+    torneo: "1era Edición",
+  },
+  {
+    media: [
+      {
+        type: "image",
+        src: `${NEWS_ASSETS_BASE}/2026-01-14(4).jpeg`,
+        caption: ".",
+      },
+      {
+        type: "image",
+        src: `${NEWS_ASSETS_BASE}/2026-01-14(5).jpeg`,
+        caption: ".",
+      },
+      {
+        type: "image",
+        src: `${NEWS_ASSETS_BASE}/2026-01-14(6).jpeg`,
+        caption: ".",
+      },
+      {
+        type: "image",
+        src: `${NEWS_ASSETS_BASE}/2026-01-14(7).jpeg`,
+        caption: ".",
+      },
+      {
+        type: "image",
+        src: `${NEWS_ASSETS_BASE}/2026-01-14(8).jpeg`,
+        caption: ".",
+      },
+      {
+        type: "image",
+        src: `${NEWS_ASSETS_BASE}/2026-01-14(9).jpeg`,
+        caption: ".",
+      },
+    ],
+    title: "Interrupción de Servicio",
+    text: "Se cortó la luz en el barrio; El Gordo cada vez mas cerca de la cama.",
+    date: "25/02/2026",
+    torneo: "1era Edición",
+  },
+  {
+    media: [
+      {
+        type: "image",
+        src: `${NEWS_ASSETS_BASE}/2026-02-11(1).jpeg`,
+        caption: ".",
+      },
+    ],
+    title: "Operación Derrumbe",
+    text: "Ibo necesitó una sola mano para mandar a Cede al fondo. Mientras tanto, Guada se llevó el MVP.",
+    date: "11/02/2026",
+    torneo: "1era Edición",
+  },
 ];
 
 const newsFeed = document.getElementById("newsFeed");
