@@ -208,12 +208,12 @@ const NEWS_POSTS = [
     media: [
       {
         type: "image",
-        src: `${NEWS_ASSETS_BASE}/2026-02-27(1).jpeg`,
+        src: `${NEWS_ASSETS_BASE}/2026-02-27(1).jpg`,
         caption: ".",
       },
       {
         type: "image",
-        src: `${NEWS_ASSETS_BASE}/2026-02-27(2).jpeg`,
+        src: `${NEWS_ASSETS_BASE}/2026-02-27(2).jpg`,
         caption: ".",
       },
     ],
@@ -226,7 +226,7 @@ const NEWS_POSTS = [
     media: [
       {
         type: "image",
-        src: `${NEWS_ASSETS_BASE}/2026-03-07(1).jpeg`,
+        src: `${NEWS_ASSETS_BASE}/2026-03-07(1).jpg`,
         caption: ".",
       },
     ],
