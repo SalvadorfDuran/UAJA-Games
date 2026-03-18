@@ -112,7 +112,7 @@ const NEWS_POSTS = [
       {
         type: "image",
         src: `${NEWS_ASSETS_BASE}/2026-02-25(1).png`,
-        caption: ".",
+        caption: "El boludo del matador pidió la comida para otra dirección.",
       },
       {
         type: "image",
@@ -238,7 +238,14 @@ const NEWS_POSTS = [
       },
     ],
     title: "Mozo! Un Sanguche de Milanesa por favor.",
-    text: "Don Balón y Guada abrieron un restaurante en bajo belgrano... las críticas no se hicieron esperar, te sirven cualquier cosa! NO VAYAN!",
+    text: "Don Balón y Guada abrieron un restaurante en bajo belgrano y las críticas no se hicieron esperar.",
+    html: `
+      Don Balón y Guada abrieron un restaurante en bajo belgrano y las críticas no se hicieron esperar... te sirven cualquier cosa! <strong>NO VAYAN!</strong><br><br>
+      <strong>Algunas reseñas destacadas:</strong><br>
+      <em>"⭐⭐git/5 Pedí un arroz y me trajeron una lasagna bolognesa, nada que ver!"</em><br>
+      <em>"⭐/5 No entiendo cómo los mozos me trajeron TODO mal. No había nada de lo que pedí."</em><br><br>
+      Mientras tanto, el restó de Piporne ya va por la segunda estrella michelín.
+    `,
     date: "17/03/2026",
     torneo: "1era Edición",
   },
@@ -265,6 +272,11 @@ const NEWS_POSTS = [
       {
         type: "image",
         src: `${NEWS_ASSETS_BASE}/2026-03-07(1).jpg`,
+        caption: ".",
+      },
+      {
+        type: "image",
+        src: `${NEWS_ASSETS_BASE}/2026-03-07(2).jpg`,
         caption: ".",
       },
     ],
@@ -306,7 +318,11 @@ function renderNewsFeed(posts) {
     title.textContent = post.title;
 
     const text = document.createElement("p");
-    text.textContent = post.text;
+    if (typeof post.html === "string" && post.html.trim()) {
+      text.innerHTML = post.html;
+    } else {
+      text.textContent = post.text || "";
+    }
 
     const meta = document.createElement("span");
     meta.className = "muted";
